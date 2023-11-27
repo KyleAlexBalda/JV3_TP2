@@ -2,11 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-[CreateAssetMenu(fileName ="InfoJoueur", menuName = "SO/NouveauJoueur")]
-
-public class InfosJoueur : MonoBehaviour
-{   
+[CreateAssetMenu(fileName = "InfosJoueur", menuName = "SO/InfosJoueur")]
+public class InfosJoueur : ScriptableObject
+{
     //Contient le nombre de points actuels
     public int _nbPoints;
 
