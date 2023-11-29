@@ -22,7 +22,7 @@ public class UIMainMenu : MonoBehaviour
 
     private void StarNewGame(){
        // _levelManager.LoadNewGame();
-       _levelManager.LoadAsyncScene("level01");
+       _levelManager.LoadAsyncScene("Nicolas");
     }
     private void QuitGame(){
         _levelManager.QuitGame();
