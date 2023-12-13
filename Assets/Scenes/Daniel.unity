@@ -942,6 +942,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8009449500863123102, guid: 2d007699cb5232443a862015a087bb8c,
+        type: 3}
+      propertyPath: m_PositionInput.m_Action.m_Id
+      value: f52e9448-2488-4e59-afb0-d1d55fd0fe9e
+      objectReference: {fileID: 0}
+    - target: {fileID: 8009449500863123102, guid: 2d007699cb5232443a862015a087bb8c,
+        type: 3}
+      propertyPath: m_RotationInput.m_Action.m_Id
+      value: e05c499e-d133-4ded-9c84-3fc590419fd9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8009449500863123102, guid: 2d007699cb5232443a862015a087bb8c,
+        type: 3}
+      propertyPath: m_PositionInput.m_Action.m_Name
+      value: Position Input
+      objectReference: {fileID: 0}
+    - target: {fileID: 8009449500863123102, guid: 2d007699cb5232443a862015a087bb8c,
+        type: 3}
+      propertyPath: m_RotationInput.m_Action.m_Name
+      value: Rotation Input
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
