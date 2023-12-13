@@ -16,7 +16,7 @@ public class GrabObjet : MonoBehaviour
 
 
     //Nombre de secondes avant que l'objet disparaisse
-    [SerializeField] private int _timerDestroy = 2;
+    [SerializeField] private int _timerDestroy = 1;
 
 
     //Variables pour le son
@@ -32,13 +32,6 @@ public class GrabObjet : MonoBehaviour
         if(other.gameObject.tag == "Player"){
             Debug.Log("collision");
 
-            //Enregistre le nombre de point(s) actuel(s)
-            _infosJoueur._nbPoints += _nbPoints;
-
-
-            //Enregistre le nombre de points totaux
-            _infosJoueur._nbPointsTotaux += _nbPoints;
-
             //Joue un son lorsque l'objet est touché
             audioSource.clip = _sonDetruit;
             audioSource.Play();
@@ -49,6 +42,12 @@ public class GrabObjet : MonoBehaviour
             
     }
     private void DetruitObjet(){
+        //Enregistre le nombre de point(s) actuel(s)
+        _infosJoueur._nbPoints += _nbPoints;
+
+        //Enregistre le nombre de points totaux
+        _infosJoueur._nbPointsTotaux += _nbPoints;
+
         Destroy(gameObject);
     }
 }

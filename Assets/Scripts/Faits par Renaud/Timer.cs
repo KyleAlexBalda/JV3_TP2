@@ -5,16 +5,28 @@ using TMPro;
 
 public class Timer : MonoBehaviour
 {
-
+    private LevelManager _levelManager;
     [SerializeField] private TMP_Text _timeText;
 
     [SerializeField] public float _tempsRestant;
 
 
+    //Vient chercher mon canvas FinDeJeu
+    [SerializeField] private GameObject _messageFin;
+
+    //Vient chercher mes autres canvas
+    [SerializeField] private GameObject[] _autresCanvas;
+
+    void Start()
+    {
+    _levelManager = LevelManager.Instance;  
+    }
+
     // Update is called once per frame
     void Update()
     {
         CalculTemps();
+        FinDeLaPartie();
     }
 
     private void CalculTemps(){
@@ -32,5 +44,24 @@ public class Timer : MonoBehaviour
 
 
         _timeText.text = string.Format("{0:00}:{1:00}", minutes, secondes);
+    }
+
+    private void FinDeLaPartie(){
+        if(_tempsRestant < 0){
+            //Active mon message de fin
+            _messageFin.SetActive(true);
+
+            //Désactive les autres éléments de mon UI
+            foreach(GameObject canvas in _autresCanvas){
+                canvas.SetActive(false);
+            }
+
+            //Passe à la scène suivante dans trois secondes
+            Invoke("SceneFin", 5);
+        }
+    }
+    private void SceneFin(){
+        Debug.Log("C'est fini");
+        //_levelManager.LoadAsyncScene("Fin");
     }
 }
