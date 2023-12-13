@@ -32,6 +32,9 @@ public class LevelManager : MonoBehaviour //Si le script ne marche pas, il faut 
     public void LoadNewGame(){
         Loadscene("Level01");
     }
+    public void LoadFin(){
+        Loadscene("Fin");
+    }
     public void LoadMainMenu(){
         Loadscene("MainMenu");
     }
