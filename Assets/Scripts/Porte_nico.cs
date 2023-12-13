@@ -6,6 +6,11 @@ using UnityEngine;
 public class Porte_nico : MonoBehaviour
 {
     [SerializeField] private GameObject porte;
+    [SerializeField] private AudioSource son;
+
+
+
+
 
      
 
@@ -32,6 +37,7 @@ void OnTriggerEnter(Collider other)
     {
         Destroy(other.gameObject);
         AnimationPorte();
+        son.Play();
     }
 }
 
