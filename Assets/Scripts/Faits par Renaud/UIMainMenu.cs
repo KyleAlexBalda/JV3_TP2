@@ -8,6 +8,8 @@ public class UIMainMenu : MonoBehaviour
     [SerializeField] Button _newGame;
     [SerializeField] Button _quitGame;
 
+    [SerializeField] private InfosJoueur _infosJoueur;
+
     private LevelManager _levelManager;
     
 
@@ -21,8 +23,10 @@ public class UIMainMenu : MonoBehaviour
     }
 
     private void StarNewGame(){
+        _infosJoueur._nbPointsTotaux = 0;
        // _levelManager.LoadNewGame();
        _levelManager.LoadAsyncScene("Nicolas");
+
     }
     private void QuitGame(){
         _levelManager.QuitGame();
