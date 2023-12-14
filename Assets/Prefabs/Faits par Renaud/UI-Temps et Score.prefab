@@ -331,6 +331,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _timeText: {fileID: 8591440493368086604}
   _tempsRestant: 180
+  _messageFin: {fileID: 0}
+  _autresCanvas: []
 --- !u!1 &4994588854951127499
 GameObject:
   m_ObjectHideFlags: 0
