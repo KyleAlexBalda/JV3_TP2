@@ -17,7 +17,8 @@ GameObject:
   - component: {fileID: 4466361489857303024}
   - component: {fileID: -6085425965308470231}
   - component: {fileID: -2340552874122664077}
-  m_Layer: 0
+  - component: {fileID: -7391665080939075313}
+  m_Layer: 6
   m_Name: Kunai
   m_TagString: weapon
   m_Icon: {fileID: 0}
@@ -318,7 +319,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 2
+  MaxDistance: 8.01
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -409,6 +410,20 @@ MonoBehaviour:
   _nbPoints: 1
   _timerDestroy: 1
   _sonDetruit: {fileID: 8300000, guid: 16fba6d30ed741d4a9fdd6e79ee2f3ac, type: 3}
+--- !u!114 &-7391665080939075313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073543334428084678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f501059fb1e4b8bbe562cf727b1076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: -6085425965308470231}
+  _audioClip: {fileID: 8300000, guid: 1e365d2d92a6d443fb077c5ffceaefef, type: 3}
 --- !u!1 &7481929290707849759
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,7 +433,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6863794629879935021}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: grab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
