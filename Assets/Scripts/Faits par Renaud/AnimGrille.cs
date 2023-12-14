@@ -8,13 +8,14 @@ public class AnimGrille : MonoBehaviour
 
     [SerializeField] private InfosJoueur _infosJoueur;
 
-    private Animator animation;
+    private Animator _animator;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        animation = _grille.GetComponent<Animator>();
+        // Récupère le composant Animator
+        _animator = GetComponent<Animator>();
     }
 
     /// <summary>
@@ -31,6 +32,6 @@ public class AnimGrille : MonoBehaviour
         }
     }
     public void animGrille(){
-        animation.SetBool("ouvre",true); 
+        _animator.SetBool("ouvre",true); 
     }
 }
