@@ -17,6 +17,10 @@ public class ZoneLevelDaniel : MonoBehaviour
     /// <param name="other">The other Collider involved in this collision.</param>
     private void OnTriggerEnter(Collider other)
     {
-        _levelManager.LoadAsyncScene("Daniel");
+        if(other.gameObject.tag == "Player"){
+            Debug.Log("Chez Daniel");
+            _levelManager.LoadAsyncScene("Daniel");
+        }
+
     }
 }
