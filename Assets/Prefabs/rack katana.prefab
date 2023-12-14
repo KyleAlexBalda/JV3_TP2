@@ -202,6 +202,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5887755939134344548}
     m_Modifications:
+    - target: {fileID: 4023264185642257590, guid: d49cab983ea2cc3438c5386d52e01846,
+        type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 549282347843194585, guid: 560b27561ca40a043a10c0ae14cc5b23,
+        type: 2}
     - target: {fileID: 6830663704188572499, guid: d49cab983ea2cc3438c5386d52e01846,
         type: 3}
       propertyPath: m_Name
