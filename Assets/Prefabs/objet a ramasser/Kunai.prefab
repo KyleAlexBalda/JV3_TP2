@@ -319,9 +319,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 8.01
+  MaxDistance: 15
   Pan2D: 0
-  rolloffMode: 1
+  rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioSource: {fileID: -6085425965308470231}
-  _audioClip: {fileID: 8300000, guid: 1e365d2d92a6d443fb077c5ffceaefef, type: 3}
+  _audioClip: {fileID: 8300000, guid: 3bd68cad1672141f6b76fea5aced4b3d, type: 3}
 --- !u!1 &7481929290707849759
 GameObject:
   m_ObjectHideFlags: 0
