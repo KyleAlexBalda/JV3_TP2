@@ -26,17 +26,17 @@ public class LevelManager : MonoBehaviour //Si le script ne marche pas, il faut 
         }
     }
 
-    public void Loadscene(string SceneName){
-        SceneManager.LoadScene(SceneName);
+    public void Loadscene(string Nicolas){
+        SceneManager.LoadScene(Nicolas);
     }
     public void LoadNewGame(){
-        Loadscene("Level01");
+        Loadscene("Nicolas");
     }
     public void LoadFin(){
         Loadscene("Fin");
     }
     public void LoadMainMenu(){
-        Loadscene("MainMenu");
+        Loadscene("Accueil_Kyle");
     }
     public void QuitGame(){
         Debug.Log("Quitter jeu");

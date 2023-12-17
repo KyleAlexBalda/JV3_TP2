@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kyle.unity
     guid: 952408a1616fe9c4db27486728a57479
+  - enabled: 1
+    path: Assets/Scenes/Fin_Kyle.unity
+    guid: fc631d38e6e4a5f4087640f57c518637
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b9d7112c0e1bbb74fa051575c4541b19,
       type: 2}
