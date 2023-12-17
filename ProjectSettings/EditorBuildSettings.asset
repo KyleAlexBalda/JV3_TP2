@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Intro_DR.unity
+    path: Assets/Scenes/Accueil_Kyle.unity
     guid: 251342a343afb47e29cf5a7dfdf99f01
   - enabled: 1
     path: Assets/Scenes/Nicolas.unity
