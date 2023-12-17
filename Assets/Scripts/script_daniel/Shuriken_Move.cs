@@ -4,16 +4,24 @@ using UnityEngine;
 
 public class Shuriken_Move : MonoBehaviour
 {
-     [SerializeField] private GameObject _boxCollider;
-    // Start is called before the first frame update
-    void Start()
+
+    private Animator _animatore;
+
+
+     void Start()
     {
-        
+        // Récupère le composant Animator
+        _animatore = GetComponent<Animator>();
+        animShuriken();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    private void OnTriggerEnter(Collider other){
+        if(other.tag == "Player"){
+            
+        }
+    }
+
+    public void animShuriken(){
+        _animatore.SetBool("shuriken_mouvement",true); 
     }
 }
