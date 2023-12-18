@@ -2354,7 +2354,7 @@ GameObject:
   - component: {fileID: 127197918}
   - component: {fileID: 127197919}
   m_Layer: 0
-  m_Name: "AmbianceN\xE9on"
+  m_Name: AmbianceDaniel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2386,7 +2386,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -6852146368512543788, guid: 560b27561ca40a043a10c0ae14cc5b23,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: fb13c63f01570ee49a79493de6a425fb, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bba78ab05b7224b3ab29dd099066d2cb, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
