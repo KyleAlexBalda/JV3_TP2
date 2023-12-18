@@ -19,7 +19,8 @@ public class ZoneLevelDaniel : MonoBehaviour
     {
         if(other.gameObject.tag == "Player"){
             Debug.Log("Chez Daniel");
-            _levelManager.LoadAsyncScene("Daniel");
+            _levelManager.LoadNextScene();
+            //_levelManager.LoadAsyncScene("Daniel");
         }
 
     }
