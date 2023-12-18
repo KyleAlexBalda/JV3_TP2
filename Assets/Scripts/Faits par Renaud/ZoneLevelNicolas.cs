@@ -17,6 +17,7 @@ public class ZoneLevelNicolas : MonoBehaviour
     /// <param name="other">The other Collider involved in this collision.</param>
     private void OnTriggerEnter(Collider other)
     {
-        _levelManager.LoadAsyncScene("Fin_Kyle");
+        _levelManager.LoadNextScene();
+        //_levelManager.LoadAsyncScene("Fin_Kyle");
     }
 }
