@@ -62,6 +62,6 @@ public class Timer : MonoBehaviour
     }
     private void SceneFin(){
         Debug.Log("C'est fini");
-        //_levelManager.LoadAsyncScene("Fin");
+        _levelManager.LoadAsyncScene("Fin_Kyle");
     }
 }

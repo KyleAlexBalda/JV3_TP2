@@ -7,7 +7,7 @@ public class UIMainMenu : MonoBehaviour
 {
     [SerializeField] Button _newGame;
     [SerializeField] Button _quitGame;
-
+    [SerializeField] Button _mainMenu;
     [SerializeField] private InfosJoueur _infosJoueur;
 
     private LevelManager _levelManager;
@@ -20,6 +20,7 @@ public class UIMainMenu : MonoBehaviour
 
     _newGame.onClick.AddListener(StarNewGame);   
     _quitGame.onClick.AddListener(QuitGame);   
+    _mainMenu.onClick.AddListener(MainMenu);
     }
 
     private void StarNewGame(){
@@ -31,4 +32,8 @@ public class UIMainMenu : MonoBehaviour
     private void QuitGame(){
         _levelManager.QuitGame();
     }
+    private void MainMenu(){
+        _levelManager.LoadMainMenu();
+    }
+
 }
