@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour //Si le script ne marche pas, il faut 
         Loadscene("Nicolas");
     }
     public void LoadFin(){
-        Loadscene("Fin");
+        Loadscene("Fin_Kyle");
     }
     public void LoadMainMenu(){
         Loadscene("Accueil_Kyle");

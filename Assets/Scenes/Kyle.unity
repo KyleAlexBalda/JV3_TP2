@@ -1382,7 +1382,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: fe5ac69c67d2a6849937d1c51b22bd91, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -7339,7 +7339,7 @@ PrefabInstance:
     - target: {fileID: 4995641222047018115, guid: a876fa376a3a5194abf808e421cf3aa0,
         type: 3}
       propertyPath: m_Name
-      value: ZoneChezNicolas
+      value: ZoneFin
       objectReference: {fileID: 0}
     - target: {fileID: 8048556229096184350, guid: a876fa376a3a5194abf808e421cf3aa0,
         type: 3}

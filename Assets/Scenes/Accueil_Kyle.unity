@@ -738,10 +738,10 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2048968678}
+  - {fileID: 1336482396}
   - {fileID: 1693112701}
   - {fileID: 787239648}
-  - {fileID: 1336482396}
+  - {fileID: 2048968678}
   m_Father: {fileID: 1761821461}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2968,9 +2968,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Chaque Niveau ont des instructions. Cependant, en g\xE9n\xE9ral, il faut
-    ramasser des kunais et quand l'objectif est r\xE9ussi une porte ouvre dans la
-    pi\xE8ce"
+  m_text: Utilise ton scanner trouver et ramasser les objets avant le temps imparti
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 992b123c8d05f9a46ad7097ccffa969a, type: 2}
   m_sharedMaterial: {fileID: 4825758283901889010, guid: 992b123c8d05f9a46ad7097ccffa969a,
@@ -3034,7 +3032,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -12.39695, w: -87.98241}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3303,7 +3301,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.9, y: -9.4}
+  m_AnchoredPosition: {x: 33.9, y: 16.55}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336482397
@@ -3623,19 +3621,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1593378470}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1212115222}
-        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
-        m_MethodName: LoadAsyncScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1593378470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4191,9 +4177,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc7ae0b8b445561409e6bbf7a96ca03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _newGame: {fileID: 0}
-  _quitGame: {fileID: 0}
-  _infosJoueur: {fileID: 0}
+  _newGame: {fileID: 1593378469}
+  _quitGame: {fileID: 1998890529}
+  _infosJoueur: {fileID: 11400000, guid: b481fdb615992574da3bb1a0e8e73ff6, type: 2}
 --- !u!1001 &1819633895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4590,19 +4576,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1998890530}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1633550378}
-        m_TargetAssemblyTypeName: QuitterJeu, Assembly-CSharp
-        m_MethodName: ExitGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1998890530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5275,7 +5249,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 33.9, y: 16.5}
+  m_AnchoredPosition: {x: 33.9, y: -8.75}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2048968679
